@@ -1,0 +1,73 @@
+body {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+}
+header {
+    box-shadow: 0 0 15px 2px black;
+}
+.topHeader {
+    background-color: fuchsia;
+    overflow: hidden;
+    max-height: 80px;
+}
+nav {
+    width: 100%;
+}
+#menu ul{
+    padding-top: 0;
+    margin: 0;
+}
+#menu ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+#menu ul li a{
+    color: inherit;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.submenu{
+    display: block;
+    background-color: white;
+    padding: 0;
+    border: 1px solid black;
+    position: absolute;
+    display: none;
+}
+#menu ul li:hover{
+    border-left: 3px solid darkred;
+    border-right: 3px solid darkred;
+}
+#menu ul li:hover .submenu{
+    display: block;
+}
+
+.submenu li{
+    min-width: 170px;
+    border-bottom: 1px solid black;
+}
+.submenu li:hover{
+    background-color: darkred;
+    color: chartreuse;
+}
+.logo, .title, .search {
+    float: left;
+    width: 33%;
+}
+.title p {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 40px;
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+}
+.search {
+    margin-top: 20px;
+}
+.search form {
+    margin-left: 130px;
+}

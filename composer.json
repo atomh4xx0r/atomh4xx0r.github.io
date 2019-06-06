@@ -1,0 +1,6 @@
+{
+  "require": {
+    "twig/twig": "2.x-dev",
+    "barryvdh/laravel-ide-helper": "v2.6.2"
+  }
+}
