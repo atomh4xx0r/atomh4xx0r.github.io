@@ -9,7 +9,6 @@ header {
     background-color: rgba(255,255,255,0.5);
     overflow: hidden;
     max-height: 80px;
-    position:absolute;
 }
 nav {
     width: 100%;
@@ -73,7 +72,7 @@ nav {
     margin-left: 130px;
 }
 #content{
-    background-image: url("./hd_wallpaper_sights_travel_tulum_mexico-3840x2160.jpeg");
+    background-image: url("http://dev.discount-travel.by/wp-content/themes/travelkit/hd_wallpaper_sights_travel_tulum_mexico-3840x2160.jpeg");
     background-size: cover;
     background-position: 50% 50%;
 }
