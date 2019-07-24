@@ -6,7 +6,7 @@ header {
     box-shadow: 0 0 15px 2px black;
 }
 .topHeader {
-    background-color: fuchsia;
+    background-color: transparent;
     overflow: hidden;
     max-height: 80px;
 }
